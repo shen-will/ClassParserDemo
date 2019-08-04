@@ -39,7 +39,7 @@ public class Disassembler {
         sb.append(clFile.header.access_desc).append(" ")
                 .append("class ")
                 .append(clFile.header.class_name)
-                .append(" ")
+                .append(" externs  ")
                 .append(clFile.header.super_name).append(" ");
 
         //implement interfaces
